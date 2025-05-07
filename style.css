@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(  rgb(255, 255, 255),   rgb(13, 0, 255), rgb(255, 0, 0) );
+    min-height: 99vh;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.header{
+    border-bottom: 2px solid  rgb(255, 255, 255);
+    height: 80px;   
+}
+
+.header__container{
+    max-width: 1920px;
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.header__menu{
+    display: flex;
+    list-style-type: none;
+    padding-right: 50px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.menu__item{
+    margin-right: 20px;
+}
+
+.menu__item:hover{
+    border-bottom: 1px solid rgb(0, 0, 255);
+    color: rgb(8, 0, 255);
+    transition: 1000ms;
+}
+
+.main{
+    max-width: 1920px;
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.contacts{
+    border: 2px solid rgb(255, 0, 0);
+}
+.main{
+    max-width: 1920px;
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.contacts{
+    border: 2px solid white;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+}
+.contacts:nth-child(2){
+    transform: translateY(50%);
+}
+.main__container{
+    display: flex;
+    justify-content: space-between;
+}
